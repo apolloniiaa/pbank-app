@@ -233,6 +233,7 @@ h1 {
   background-image: linear-gradient(to left bottom, #0f0c29, #84529c, #302b63);
   box-shadow: 1px 8px 23px #b7b3d95e;
   backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(80px);
   overflow: hidden;
 }
 
@@ -240,12 +241,14 @@ h1 {
   background-image: linear-gradient(to left bottom, #0f0c29, #84529c, #302b63);
   box-shadow: 1px 8px 23px #b7b3d95e;
   backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(80px);
   overflow: hidden;
 }
 .operation--close {
   background-image: linear-gradient(to left bottom, #0f0c29, #84529c, #302b63);
   box-shadow: 1px 8px 23px #b7b3d95e;
   backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(80px);
   overflow: hidden;
 }
 h2 {
@@ -337,7 +340,7 @@ h2 {
 .close-circle {
   position: absolute;
   margin: auto;
-  top: 63%;
+  top: 8%;
   bottom: 42%;
   right: -6%;
   width: 188px;
