@@ -24,11 +24,12 @@ html {
 }
 
 body {
-  color: whitesmoke;
-  background: linear-gradient(260deg, #0e0332 0%, #000000 100%);
+  color: #13032f;
+  background: white;
   height: 100vh;
   padding: 2rem;
   font-family: PlayfairRegular, sans-serif;
+  margin: 10rem auto;
 }
 
 nav {
@@ -45,20 +46,20 @@ nav {
 
 .logo {
   height: 7rem;
-
-  filter: drop-shadow(12px 11px 16px blue) invert(22%);
+  filter: drop-shadow(14px 17px 16px blue) invert(22%);
 }
 
 .login {
   display: flex;
+  color: #13032f;
 }
 h1 {
   font-family: PlayfairItalic, sans-serif;
-  background: -webkit-linear-gradient(#dbdbdbeb, #ff99e163);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3.5rem;
   text-align: center;
+  background-color: #a68ecf;
 }
 .logo-div {
   display: flex;
@@ -75,7 +76,7 @@ h1 {
   width: 12rem;
   border-radius: 10rem;
   margin-right: 1rem;
-  color: #302b63;
+  color: #13032f;
   border: 1px solid #fff;
   transition: all 0.3s;
 }
@@ -86,7 +87,7 @@ h1 {
 }
 
 .login__input::placeholder {
-  color: #12024a5e;
+  color: #13032f;
 }
 
 .login__btn {
@@ -141,7 +142,7 @@ h1 {
 
 .balance__date {
   font-size: 1.7rem;
-  color: #ff99e1;
+  color: #13032f;
   line-height: 3rem;
   font-family: PlayfairItalic, sans-serif;
 }
@@ -177,7 +178,7 @@ h1 {
 .movements__date {
   font-size: 1.1rem;
   text-transform: uppercase;
-  color: #f4dcff;
+  color: #0e0124;
 }
 .movements__type--deposit {
   background: linear-gradient(to left, #8a5d7f, #080021);
@@ -230,20 +231,32 @@ h1 {
   color: white;
 }
 .operation--transfer {
-  background-image: linear-gradient(to left bottom, #0f0c29, #84529c, #302b63);
+  background-image: linear-gradient(to left bottom, #0f0c29, #160320, #5f58a0);
+  box-shadow: 1px 8px 23px #1b073e;
+  backdrop-filter: blur(80px);
+  overflow: hidden;
+
   box-shadow: 1px 8px 23px #b7b3d95e;
   backdrop-filter: blur(80px);
   overflow: hidden;
 }
 
 .operation--loan {
-  background-image: linear-gradient(to left bottom, #0f0c29, #84529c, #302b63);
+  background-image: linear-gradient(to left bottom, #0f0c29, #160320, #5f58a0);
+  box-shadow: 1px 8px 23px #1b073e;
+  backdrop-filter: blur(80px);
+  overflow: hidden;
+
   box-shadow: 1px 8px 23px #b7b3d95e;
   backdrop-filter: blur(80px);
   overflow: hidden;
 }
 .operation--close {
-  background-image: linear-gradient(to left bottom, #0f0c29, #84529c, #302b63);
+  background-image: linear-gradient(to left bottom, #0f0c29, #160320, #5f58a0);
+  box-shadow: 1px 8px 23px #1b073e;
+  backdrop-filter: blur(80px);
+  overflow: hidden;
+
   box-shadow: 1px 8px 23px #b7b3d95e;
   backdrop-filter: blur(80px);
   overflow: hidden;
@@ -331,7 +344,7 @@ h2 {
   top: 104%;
   right: -14%;
   z-index: -1;
-  background-image: linear-gradient(to left bottom, #84529c, #f0adc0);
+  background: #a68ecf;
 }
 
 .close-circle {
@@ -350,7 +363,7 @@ h2 {
 
 .close-circle:nth-of-type(2) {
   position: absolute;
-  background-image: linear-gradient(to left bottom, #84529c, #f0adc0);
+  background: #a68ecf;
   width: 100px;
   height: 92px;
   top: 104%;
@@ -375,7 +388,7 @@ h2 {
   top: 104%;
   right: -14%;
   z-index: 5;
-  background-image: linear-gradient(to left bottom, #84529c, #f0adc0);
+  background: #a68ecf;
   width: 100px;
   height: 92px;
 }
@@ -434,7 +447,7 @@ h2 {
   }
 
   .logo {
-    height: 7rem;
+    height: 5rem;
     padding: -3rem;
     margin: 3rem;
   }
